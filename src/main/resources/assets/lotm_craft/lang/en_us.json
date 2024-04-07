@@ -1,0 +1,18 @@
+{
+	"lotm_craft.name":"Lotm Craft",
+	
+	
+	
+	"lotm_craft.pathways.door.NAME":"Door",
+	"lotm_craft.payhways.door.TITLES.SEQ9":"Apprentice",
+	"lotm_craft.payhways.door.TITLES.SEQ8":"Trickmaster",
+	"lotm_craft.payhways.door.TITLES.SEQ7":"Astrologer",
+	"lotm_craft.payhways.door.TITLES.SEQ6":"Scribe",
+	"lotm_craft.payhways.door.TITLES.SEQ5":"Traveler",
+	"lotm_craft.payhways.door.TITLES.SEQ4":"Secret Sorcerer",
+	"lotm_craft.payhways.door.TITLES.SEQ3":"Wanderer",
+	"lotm_craft.payhways.door.TITLES.SEQ2":"Planeswalker",
+	"lotm_craft.payhways.door.TITLES.SEQ1":"Key of Stars",
+	"lotm_craft.payhways.door.TITLES.SEQ0":"Door"
+
+}
