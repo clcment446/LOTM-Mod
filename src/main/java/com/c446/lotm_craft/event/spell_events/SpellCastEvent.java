@@ -4,13 +4,11 @@ import com.c446.lotm_craft.beyonder.beyonder_spells.IBeyonderSpell;
 import com.c446.lotm_craft.beyonder.beyonder_spells.SpellContext;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
-public class SpellCastPre extends LivingEvent {
-    private final IBeyonderSpell spell;
+public class SpellCastEvent extends LivingEvent {
     private final SpellContext context;
 
-    public SpellCastPre(IBeyonderSpell castedSpell, SpellContext castContext) {
+    public SpellCastEvent(SpellContext castContext) {
         super(castContext.caster);
-        this.spell = castedSpell;
         this.context = castContext;
     }
 
@@ -20,7 +18,7 @@ public class SpellCastPre extends LivingEvent {
     }
 
     public IBeyonderSpell getSpell() {
-        return this.spell;
+        return context.spell;
     }
 
     public SpellContext getContext() {

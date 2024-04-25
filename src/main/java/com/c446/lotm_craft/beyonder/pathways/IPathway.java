@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class IPathway {
-    public static IPathway instance = new IPathway("test_pathway", 0, 0, 0);
+    public static IPathway INSTANCE = new IPathway("test_pathway", 0, 0, 0);
     public String name = "";
     static int r = 0;
     static int g = 0;
@@ -30,7 +30,7 @@ public class IPathway {
 
     public static IPathway getPathway(String name) {
         if (PathwayIdentifiers.get(name) == null) {
-            return IPathway.instance;
+            return IPathway.INSTANCE;
         } else {
             return PathwayIdentifiers.get(name);
         }
